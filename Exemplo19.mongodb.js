@@ -1,7 +1,7 @@
 use('Fatec')
 db.Pessoas.update(
 
-    {nome: "Fernanda Souza "},
+    {nome: "Fernanda Souza"},
     { $set: {Salario: 12170 }}
     
 );
